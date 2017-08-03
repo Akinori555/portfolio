@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style type="text/css">
+      <!--
+      th,td,p.req_date {font-size: 12px;}
+      -->
+    </style>
+    <title>商品発注</title>
+  </head>
+  <body>
+    <p>■商品発注確認</p>
+    <form action="admin.php" method="post">
+      <table>
+        <tr>
+          <th>商品名</th><th>：個数</th>
+        </tr>
+
+        !order_conf_data!
+
+      </table>
+      <p class="req_date"><b>配送希望日：</b>!req_date!</p>
+      <p>以上の内容で発注します</p>
+      <button type="submit">発注確定</button>
+      <button type="button" name="return" onclick="history.back();">前画面に戻る</button>
+      <input type="hidden" name="req_date" value="!req_date!">
+      <input type="hidden" name="mode" value="order_send">
+    </form>
+  </body>
+</html>

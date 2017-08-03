@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>スタッフ情報</title>
+  </head>
+  <body>
+    <p>!id!のアカウントです</p>
+    <p>■ユーザー編集</p>
+    <form action="admin.php" method="post">
+      <table border="1">
+        <tr>
+          <td><label for="id">ID</label></td>
+          <td><input id="id" type="text" name="id" value="!id!"></td>
+        </tr>
+        <tr>
+          <td><label for="pass">PASS</label></td>
+          <td><input id="pass" type="password" name="pass" value="!pass!"></td>
+        </tr>
+        <tr>
+          <td><label for="name">名前</label></td>
+          <td><input id="name" type="text" name="name" value="!name!"></td>
+        </tr>
+        <tr>
+          <td><label for="tel">電話番号</label></td>
+          <td><input id="tel" type="text" name="tel" value="!tel!"></td>
+        </tr>
+        <tr>
+          <td><label for="email">E-Mail</label></td>
+          <td><input id="email" type="text" name="email" value="!email!"></td>
+        </tr>
+      </table>
+      <button type="submit" name="button">送信</button>
+      <input type="hidden" name="mode" value="change">
+    </form>
+    <p><a href="admin.php">戻る</a></p>
+  </body>
+</html>
