@@ -73,54 +73,54 @@
 
 ![php_practice1](images/php_1/php_1-01.png)
 
-1. IDやPASSWORDを間違えるとエラー。
+2. IDやPASSWORDを間違えるとエラー。
 
 ![php_practice2](images/php_1/php_1-02.png)
 
-1. ログイン後のメインメニュー。
+3. ログイン後のメインメニュー。
 
 ![php_practice3](images/php_1/php_1-03.png)
 
-1. 売上一覧メニュー。日付を選ぶとその日の売上一蘭が表示される。
+4. 売上一覧メニュー。日付を選ぶとその日の売上一覧が表示される。
 
 ![php_practice4](images/php_1/php_1-04.png)
 
-1. また、一定期間の日当たりの平均販売数も出せる。
+5. また、一定期間の日当たりの平均販売数も出せる。
 
 ![php_practice5](images/php_1/php_1-05.png)
 
-1. ユーザー一覧メニュー。DBに登録しているユーザーの情報を見れる。また、個々の購入履歴も表示できる。
+6. ユーザー一覧メニュー。DBに登録しているユーザーの情報を見れる。また、個々の購入履歴も表示できる。
 
 ![php_practice6](images/php_1/php_1-06.png)
 
-1. 在庫一覧メニュー。DBに登録している商品の在庫数を見れる。
+7. 在庫一覧メニュー。DBに登録している商品の在庫数を見れる。
 
 ![php_practice7](images/php_1/php_1-07.png)
 
-1. 商品発注メニュー。ここから商品を購入出来る。
+8. 商品発注メニュー。ここから商品を購入出来る。
 
 ![php_practice8](images/php_1/php_1-08.png)
 
-1. 配送希望日を発注日から7日より前にするとエラーとなる。
+9. 配送希望日を発注日から7日より前にするとエラーとなる。
 
 ![php_practice9](images/php_1/php_1-09.png)
 
-1. 商品発注確認画面。
+10. 商品発注確認画面。
 
 ![php_practice10](images/php_1/php_1-10.png)
 
-1. 発注確定後画面。
+11. 発注確定後画面。
 
 ![php_practice11](images/php_1/php_1-11.png)
 
-1. 発注確定後、メールが送られてくる。
+12. 発注確定後、メールが送られてくる。
 
 ![php_practice12](images/php_1/php_1-12.png)
 
-1. 発注したappleの在庫が更新され、一つ減る。
+13. 発注したappleの在庫が更新され、一つ減る。
 
 ![php_practice13](images/php_1/php_1-13.png)
 
-1. yamadaの購入履歴には、appleが一つ増える。
+14. yamadaの購入履歴には、appleが一つ増える。
 
 ![php_practice14](images/php_1/php_1-14.png)
