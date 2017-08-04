@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style type="text/css">
+      <!--
+      span.notes {font-size: 10px; color: red;}
+      -->
+    </style>
+    <title>商品発注</title>
+  </head>
+  <body>
+    <p>!id!のアカウントです</p>
+    <ul>
+      <li><a href="admin.php">マイページ</a></li>
+      <li><a href="admin.php?mode=sale_all">売上一覧</a></li>
+      <li><a href="admin.php?mode=user_all">ユーザー一覧</a></li>
+      <li><a href="admin.php?mode=stock_all">在庫一覧</a></li>
+      <li><a href="admin.php?mode=insert">データ入力</a></li>
+      <li><a href="admin.php?mode=order">商品発注</a></li>
+      <li><a href="admin.php?mode=logout">ログアウト</a></li>
+    </ul>
+    <br>
+    <hr>
+    <p>■商品発注入力</p>
+    <form action="admin.php" method="post">
+      <table border="1">
+        <tr>
+          <th>商品名</th><th>個数</th><th>在庫数</th>
+        </tr>
+
+        !order_form_data!
+
+      </table>
+      <label for="req_date">配送希望日：</label>
+      <input id="req_date" type="date" name="req_date">
+      <span class="notes"> *本日より７日以上先を指定してください。<span>
+      <br><br>
+      <button type="submit" name="submit">発注確認へ進む</button>
+      <input type="hidden" name="mode" value="order_conf">
+    </form>
+  </body>
+</html>
