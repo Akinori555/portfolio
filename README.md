@@ -6,12 +6,14 @@
 ***
 ### サンプルサイト
 - [大海大学（私立大学）](http://my.internetacademy.jp/~a31607127/academy/index.html)
+  - [ソースはこちら](https://github.com/Akinori555/portfolio/tree/master/academy)
 
 ![大海大学1](images/academy1.png)
 
 ![大海大学2](images/academy2.png)
 <br>
 - [須臾 - Shibaraku - （和カフェ）](http://my.internetacademy.jp/~a31607127/wacafe/index.html)
+  - [ソースはこちら](https://github.com/Akinori555/portfolio/tree/master/wacafe)
 
 ![大海大学1](images/wacafe1.png)
 
@@ -20,7 +22,8 @@
 ![大海大学3](images/wacafe3.png)
 <br>
 - [APRICUS TOKYO （結婚式場）](http://my.internetacademy.jp/~a31607127/wedding/index.html)
-※こちらは作成途中になります
+  - *※こちらは作成途中になります*
+  - [ソースはこちら](https://github.com/Akinori555/portfolio/tree/master/wedding)
 
 ![APRICUS TOKYO1](images/wedding1.png)
 
@@ -30,7 +33,7 @@
 ***
 ### php学習ログ
 - セッションを利用したログイン機能、MYSQLを利用した在庫管理機能、発注後のメール機能 等を実装しました。
-- ローカルのMAMP上で動くもののため、あくまでコードのみの提示となります。
+- ローカルのMAMP環境で動くもののため、あくまでコードのみの提示となります。
 - ファイル構造は以下の通りです。
 ```
 |--php_practice
